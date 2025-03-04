@@ -18,7 +18,6 @@ on:
 
 env:
   PROJECT_TOKEN: ${{ inputs.token }}
-  SMARTUI_CLIENT_API_URL: https://stage-api.lambdatestinternal.com/visualui/1.0
   LT_SDK_DEBUG: true
 
 jobs:
@@ -43,7 +42,7 @@ jobs:
     - name: Install Dependencies
       run: |
         npm install
-        npm install @lambdatest/smartui-cli@latest -g
+        npm install @lambdatest/smartui-cli@4.1.2-beta.0 -g
 
     - name: Execute cli capture build
       run: |
