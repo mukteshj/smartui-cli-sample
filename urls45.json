@@ -6,13 +6,7 @@
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
     },
-    {
-        "name": "/research/financial-analysts-journal/2015/what-rate-of-return-can-you-reasonably-expect----or-what-can-the-long-run-tell-us-about-the-s",
-        "url": "https://rpc.stage.cfainstitute.org/research/financial-analysts-journal/2015/what-rate-of-return-can-you-reasonably-expect----or-what-can-the-long-run-tell-us-about-the-s",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
+   
     {
         "name": "/policy/positions/short-termism-revisited",
         "url": "https://rpc.stage.cfainstitute.org/policy/positions/short-termism-revisited",
@@ -20,13 +14,7 @@
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
     },
-    {
-        "name": "/research/cfa-digest/2014/02/rich-make-same-investment-errors-as-rest-digest-summary",
-        "url": "https://rpc.stage.cfainstitute.org/research/cfa-digest/2014/02/rich-make-same-investment-errors-as-rest-digest-summary",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
+   
     {
         "name": "/research/cfa-magazine/2016/lessons-from-capital-market-history-part-1",
         "url": "https://rpc.stage.cfainstitute.org/research/cfa-magazine/2016/lessons-from-capital-market-history-part-1",
@@ -48,13 +36,7 @@
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
     },
-    {
-        "name": "/research/financial-analysts-journal/2004/the-meaning-of-a-slender-risk-premium",
-        "url": "https://rpc.stage.cfainstitute.org/research/financial-analysts-journal/2004/the-meaning-of-a-slender-risk-premium",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
+  
     {
         "name": "/policy/positions/cfa-institute-views-on-fiduciary-duty-net-zero-investing",
         "url": "https://rpc.stage.cfainstitute.org/policy/positions/cfa-institute-views-on-fiduciary-duty-net-zero-investing",
