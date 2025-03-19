@@ -1910,13 +1910,7 @@
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
     },
-    {
-        "name": "/policy/positions/short-termism-revisited",
-        "url": "https://rpc.stage.cfainstitute.org/policy/positions/short-termism-revisited",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
+    
     {
         "name": "/research/financial-analysts-journal/2004/why-ethics-codes-dont-work-a-comment",
         "url": "https://rpc.stage.cfainstitute.org/research/financial-analysts-journal/2004/why-ethics-codes-dont-work-a-comment",
@@ -2932,13 +2926,7 @@
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
     },
-    {
-        "name": "/policy/positions/cfa-institute-views-on-fiduciary-duty-net-zero-investing",
-        "url": "https://rpc.stage.cfainstitute.org/policy/positions/cfa-institute-views-on-fiduciary-duty-net-zero-investing",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
+   ,
     {
         "name": "/research/financial-analysts-journal/1979/the-revised-dow-jones-industrial-average-new-wine-in-old-bottles",
         "url": "https://rpc.stage.cfainstitute.org/research/financial-analysts-journal/1979/the-revised-dow-jones-industrial-average-new-wine-in-old-bottles",
@@ -5067,13 +5055,7 @@
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
     },
-    {
-        "name": "/research/multimedia/2020/earning-investors-trust-webinar",
-        "url": "https://rpc.stage.cfainstitute.org/research/multimedia/2020/earning-investors-trust-webinar",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
+   
     {
         "name": "/policy/comment-letters/2010-2014/comment-letter-on-re-proposal-of-asset-backed-securities-proposals",
         "url": "https://rpc.stage.cfainstitute.org/policy/comment-letters/2010-2014/comment-letter-on-re-proposal-of-asset-backed-securities-proposals",
