@@ -9,7 +9,7 @@ on:
         description: 'Enter the command to execute cli capture'
         type: string
         required: true
-        default: 'smartui capture urls45.json --config smartui-web1.json -C 5'
+        default: 'smartui capture urls.json --config smartui-web1.json -C 5'
       token:
         description: 'Project token'
         type: string
