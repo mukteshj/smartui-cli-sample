@@ -19,7 +19,7 @@ on:
 env:
   PROJECT_TOKEN: ${{ inputs.token }}
   LT_SDK_DEBUG: true
-
+  SMARTUI_PAGE_WAIT_UNTIL_EVENT: "domcontentloaded"
 jobs:
   smartui-cli-capture:
     name: Execute CLI Capture
