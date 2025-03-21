@@ -1912,8 +1912,9 @@
     },
     {
         "name": "/policy/positions/short-termism-revisited",
-        "url": "https://rpc.stage.cfainstitute.org/policy/positions/short-termism-revisited",
         "pageEvent": "domcontentloaded",
+        "url": "https://rpc.stage.cfainstitute.org/policy/positions/short-termism-revisited",
+        
         "execute": {
             "beforeSnapshot": "document.querySelector('#closePrivacyWarning').click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
         }
