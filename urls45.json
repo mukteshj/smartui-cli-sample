@@ -1,47 +1,7 @@
-[
-    {
-        "name": "/research/multimedia/2020/earning-investors-trust-webinar",
-        "url": "https://rpc.stage.cfainstitute.org/research/multimedia/2020/earning-investors-trust-webinar",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
-   
-    {
-        "name": "/policy/positions/short-termism-revisited",
-        "url": "https://rpc.stage.cfainstitute.org/policy/positions/short-termism-revisited",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
-   
-    {
-        "name": "/research/cfa-magazine/2016/lessons-from-capital-market-history-part-1",
-        "url": "https://rpc.stage.cfainstitute.org/research/cfa-magazine/2016/lessons-from-capital-market-history-part-1",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
-    {
-        "name": "/research/cfa-magazine/2017/fixing-the-peer-group-problem",
-        "url": "https://rpc.stage.cfainstitute.org/research/cfa-magazine/2017/fixing-the-peer-group-problem",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
-    {
-        "name": "/research/financial-analysts-journal/2009/think-twice-harnessing-the-power-of-counterintuition",
-        "url": "https://rpc.stage.cfainstitute.org/research/financial-analysts-journal/2009/think-twice-harnessing-the-power-of-counterintuition",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    },
-  
-    {
-        "name": "/policy/positions/cfa-institute-views-on-fiduciary-duty-net-zero-investing",
-        "url": "https://rpc.stage.cfainstitute.org/policy/positions/cfa-institute-views-on-fiduciary-duty-net-zero-investing",
-        "execute": {
-            "beforeSnapshot": "document.querySelector('#closePrivacyWarning')?.click();document.querySelectorAll('#block-cfa-base-sitewidealert .close.js-dismiss-button').forEach(function(el) { el.click(); });"
-        }
-    }
-]
+{
+  "name": "visual",
+  "url": "https://www.touchpointsoftware.com/",
+  "waitForTimeout": 8000,
+  "execute": {
+    "beforeSnapshot": "document.querySelector('body > div.cky-consent-container.cky-box-bottom-left > div > div > div > div.cky-notice-btn-wrapper > button.cky-btn.cky-btn-accept').click(); document.querySelector('body > header').style.position = 'relative'; const images = document.querySelectorAll('img'); images.forEach(img => { img.removeAttribute('loading'); if (img.hasAttribute('data-src')) { img.src = img.getAttribute('data-src'); } if (img.hasAttribute('data-srcset')) { img.srcset = img.getAttribute('data-srcset'); }}); const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; }'; document.head.appendChild(style); window.requestAnimationFrame = function() { return; }; window.setTimeout = function() { return; }; window.setInterval = function() { return; }; return new Promise((resolve) => { let scrollHeight = document.body.scrollHeight; let scrollStep = scrollHeight; let scrollPosition = 0; function scroll() { window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition <= scrollHeight) { setTimeout(scroll, 10000); } else { setTimeout(resolve, 3000); }} scroll(); });"
+  }
