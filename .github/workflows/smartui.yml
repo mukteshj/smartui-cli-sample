@@ -14,7 +14,7 @@ on:
         description: 'Project token'
         type: string
         required: true
-        default: '1298164#d8da2412-b462-4bdf-bd94-ed83454b5fe7#github-cli2025'
+        default: '1298164#fc80527d-b157-4ba3-b5fd-63c1e20926d6#project-touchpoint'
 
 env:
   PROJECT_TOKEN: ${{ inputs.token }}
