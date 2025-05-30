@@ -2,21 +2,25 @@
   {
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
+ "pageEvent": "domcontentloaded",
     "waitForTimeout": 10000
   },
   {
     "name": "Acacias Plumbing 2",
     "url": "https://acaciasplumbing.com/sugar-land/",
+ "pageEvent": "domcontentloaded",
     "waitForTimeout": 10000
   },
   {
     "name": "Acacias Plumbing 3",
     "url": "https://acaciasplumbing.com/houston-commercial-plumbing/",
+ "pageEvent": "domcontentloaded",
     "waitForTimeout": 10000
   },
   {
     "name": "Acacias Plumbing 4",
     "url": "https://acaciasplumbing.com/houston-tankless-water-heater-repair-installation/",
+ "pageEvent": "domcontentloaded",
     "waitForTimeout": 10000
   }
 ]
