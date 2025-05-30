@@ -2,82 +2,21 @@
   {
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
-    "waitForTimeout": 1000
+    "waitForTimeout": 10000
   },
   {
     "name": "Acacias Plumbing 2",
     "url": "https://acaciasplumbing.com/sugar-land/",
-    "waitForTimeout": 1000
+    "waitForTimeout": 10000
   },
   {
     "name": "Acacias Plumbing 3",
     "url": "https://acaciasplumbing.com/houston-commercial-plumbing/",
-    "waitForTimeout": 1000
+    "waitForTimeout": 10000
   },
   {
     "name": "Acacias Plumbing 4",
     "url": "https://acaciasplumbing.com/houston-tankless-water-heater-repair-installation/",
-    "waitForTimeout": 1000
+    "waitForTimeout": 10000
   },
-  {
-    "name": "Acacias Plumbing 5",
-    "url": "https://acaciasplumbing.com/houston-plumbing-services/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Acacias Plumbing 6",
-    "url": "https://acaciasplumbing.com/blog/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Acacias Plumbing 7",
-    "url": "https://acaciasplumbing.com/reviews/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Acacias Plumbing 8",
-    "url": "https://acaciasplumbing.com/contact-us/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 1",
-    "url": "https://rockwater.plumbing/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 2",
-    "url": "https://rockwater.plumbing/service-areas/arlington-tx/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 3",
-    "url": "https://rockwater.plumbing/services/water-heater-repair-and-replacement/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 4",
-    "url": "https://rockwater.plumbing/protected-plumbing-coverage/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 5",
-    "url": "https://rockwater.plumbing/blog/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 6",
-    "url": "https://rockwater.plumbing/reviews/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 7",
-    "url": "https://rockwater.plumbing/careers/",
-    "waitForTimeout": 1000
-  },
-  {
-    "name": "Rockwater plumbing 8",
-    "url": "https://rockwater.plumbing/contact-us/",
-    "waitForTimeout": 1000
-  }
- 
 ]
