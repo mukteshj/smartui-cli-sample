@@ -3,9 +3,9 @@
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
     "pageEvent": "domcontentloaded",
-    "waitForTimeout": 15000,
+    "waitForTimeout": 10000,
     "execute": {
-      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('Disabled animations and forced scroll'); return new Promise(resolve => { const distance = 300; let totalHeight = 0; function smoothScroll() { window.scrollBy(0, distance); totalHeight += distance; if (totalHeight < document.body.scrollHeight) { setTimeout(smoothScroll, 300); } else { // Force scroll into footer node after scrolling setTimeout(() => { const footerEl = document.querySelector('.fl-node-9bv8klhrwq3u'); if (footerEl) footerEl.scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(resolve, 4000); }, 2000); } } smoothScroll(); }); })().then(() => console.log('Scrolling and lazy load complete'));"
+      "beforeSnapshot": "(function () { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('Disabled animations and forced scroll'); return new Promise(resolve => { const distance = 300; let totalHeight = 0; function smoothScroll() { window.scrollBy(0, distance); totalHeight += distance; if (totalHeight < document.body.scrollHeight) { setTimeout(smoothScroll, 300); } else { setTimeout(() => { const footerEl = document.querySelector('.fl-node-9bv8klhrwq3u'); if (footerEl) { footerEl.scrollIntoView({ behavior: 'smooth', block: 'center' }); } setTimeout(resolve, 4000); }, 2000); } } smoothScroll(); }); })()"
     }
   }
 ]
