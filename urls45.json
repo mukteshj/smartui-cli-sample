@@ -3,10 +3,9 @@
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
     "pageEvent": "domcontentloaded",
-    "waitForTimeout": 10000,
+    "waitForTimeout": 15000,
     "execute": {
-      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 2, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition + window.innerHeight < scrollHeight) { setTimeout(scroll, 400); } else { setTimeout(() => { window.scrollTo(0, 0); resolve(); }, 3000); }}())}); })().then(() => console.log('Scrolling is complete!'));"
+      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('Disabled animations and forced scroll'); return new Promise(resolve => { const distance = 300; let totalHeight = 0; function smoothScroll() { window.scrollBy(0, distance); totalHeight += distance; if (totalHeight < document.body.scrollHeight) { setTimeout(smoothScroll, 300); } else { // Force scroll into footer node after scrolling setTimeout(() => { const footerEl = document.querySelector('.fl-node-9bv8klhrwq3u'); if (footerEl) footerEl.scrollIntoView({ behavior: 'smooth', block: 'center' }); setTimeout(resolve, 4000); }, 2000); } } smoothScroll(); }); })().then(() => console.log('Scrolling and lazy load complete'));"
     }
   }
 ]
-
