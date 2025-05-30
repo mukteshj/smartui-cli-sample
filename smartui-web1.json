@@ -13,5 +13,6 @@
   "waitForPageRender": 100000,
   "enableJavaScript": false,
   "allowedHostnames": [],
+"ignoreHTTPSErrors": true,
   "smartIgnore": false
 }
