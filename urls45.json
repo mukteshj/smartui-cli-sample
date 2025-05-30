@@ -2,10 +2,10 @@
   {
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
- "pageEvent": "domcontentloaded",
+    "pageEvent": "domcontentloaded",
     "waitForTimeout": 10000,
     "execute": {
-      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 8, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition < scrollHeight) { setTimeout(scroll, 500); } else { setTimeout(resolve, 3000); }}())}); })().then(() => console.log('Scrolling is complete!'));"
+      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 2, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition + window.innerHeight < scrollHeight) { setTimeout(scroll, 400); } else { setTimeout(() => { window.scrollTo(0, 0); resolve(); }, 3000); }}())}); })().then(() => console.log('Scrolling is complete!'));"
     }
   }
 ]
