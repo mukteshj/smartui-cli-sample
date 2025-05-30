@@ -11,7 +11,7 @@
   },
   "waitForTimeout": 1000,
   "waitForPageRender": 100000,
-  "enableJavaScript": false,
+  "enableJavaScript": true,
   "allowedHostnames": [],
 "ignoreHTTPSErrors": true,
   "smartIgnore": false
