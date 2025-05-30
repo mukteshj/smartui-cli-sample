@@ -3,9 +3,9 @@
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
     "pageEvent": "domcontentloaded",
-    "waitForTimeout": 15000,
+    "waitForTimeout": 20000,
     "execute": {
-      "beforeSnapshot": "(function () { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; } .fl-node-9bv8klhrwq3u { display: block !important; opacity: 1 !important; visibility: visible !important; }'; document.head.appendChild(style); console.log('Disabled animations, forced scroll & made footer visible'); return new Promise(resolve => { let scrollY = 0; const scrollStep = 200; function scrollPage() { window.scrollBy(0, scrollStep); scrollY += scrollStep; if (scrollY < document.body.scrollHeight) { setTimeout(scrollPage, 200); } else { const footer = document.querySelector('.fl-node-9bv8klhrwq3u'); if (footer) { footer.style.display = 'block'; footer.style.opacity = '1'; footer.style.visibility = 'visible'; footer.scrollIntoView({ behavior: 'auto', block: 'center' }); setTimeout(resolve, 3000); } else { console.warn('Footer not found'); resolve(); } } } scrollPage(); }); })()"
+      "beforeSnapshot": "(function () { const style = document.createElement('style'); style.innerHTML = 'body { overflow: auto !important; }'; document.head.appendChild(style); console.log('Base styles injected with animations enabled'); return new Promise(resolve => { let scrollY = 0; const scrollStep = 200; const maxScroll = document.body.scrollHeight; function scrollPage() { window.scrollBy(0, scrollStep); scrollY += scrollStep; if (scrollY < maxScroll) { setTimeout(scrollPage, 200); } else { waitForFooter(); } } function waitForFooter() { const maxAttempts = 20; let attempt = 0; (function checkFooter() { const footer = document.querySelector('.fl-node-9bv8klhrwq3u'); if (footer) { footer.style.display = 'block'; footer.style.opacity = '1'; footer.style.visibility = 'visible'; footer.scrollIntoView({ behavior: 'auto', block: 'center' }); console.log('Footer found and scrolled into view'); setTimeout(resolve, 4000); } else if (attempt++ < maxAttempts) { console.log('Footer not found, retrying...'); setTimeout(checkFooter, 500); } else { console.warn('Footer not found after retries'); resolve(); } })(); } scrollPage(); }); })()"
     }
   }
 ]
