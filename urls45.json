@@ -3,24 +3,26 @@
     "name": "Acacias Plumbing 1",
     "url": "https://acaciasplumbing.com/",
  "pageEvent": "domcontentloaded",
-    "waitForTimeout": 10000
-  },
-  {
-    "name": "Acacias Plumbing 2",
-    "url": "https://acaciasplumbing.com/sugar-land/",
- "pageEvent": "domcontentloaded",
-    "waitForTimeout": 10000
-  },
-  {
-    "name": "Acacias Plumbing 3",
-    "url": "https://acaciasplumbing.com/houston-commercial-plumbing/",
- "pageEvent": "domcontentloaded",
-    "waitForTimeout": 10000
-  },
-  {
-    "name": "Acacias Plumbing 4",
-    "url": "https://acaciasplumbing.com/houston-tankless-water-heater-repair-installation/",
- "pageEvent": "domcontentloaded",
-    "waitForTimeout": 10000
+    "waitForTimeout": 10000,
+"execute": {
+      "beforeSnapshot": "(function() { \
+        return new Promise(resolve => { \
+          let scrollHeight = document.body.scrollHeight; \
+          let scrollStep = window.innerHeight / 8; \
+          let scrollDelay = 500; \
+          let scrollPosition = 0; \
+          (function scroll() { \
+            window.scrollBy(0, scrollStep); \
+            scrollPosition += scrollStep; \
+            if (scrollPosition < scrollHeight) { \
+              setTimeout(scroll, scrollDelay); \
+            } else { \
+              setTimeout(resolve, 3000); \
+            } \
+          })(); \
+        }); \
+      })().then(() => console.log('Scrolling is complete!'));"
+    }
   }
+ 
 ]
