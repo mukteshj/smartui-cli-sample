@@ -4,25 +4,9 @@
     "url": "https://acaciasplumbing.com/",
  "pageEvent": "domcontentloaded",
     "waitForTimeout": 10000,
-"execute": {
-      "beforeSnapshot": "(function() { \
-        return new Promise(resolve => { \
-          let scrollHeight = document.body.scrollHeight; \
-          let scrollStep = window.innerHeight / 8; \
-          let scrollDelay = 500; \
-          let scrollPosition = 0; \
-          (function scroll() { \
-            window.scrollBy(0, scrollStep); \
-            scrollPosition += scrollStep; \
-            if (scrollPosition < scrollHeight) { \
-              setTimeout(scroll, scrollDelay); \
-            } else { \
-              setTimeout(resolve, 3000); \
-            } \
-          })(); \
-        }); \
-      })().then(() => console.log('Scrolling is complete!'));"
+    "execute": {
+      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = '* { animation: none !important; transition: none !important; } body { overflow: auto !important; }'; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 8, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition < scrollHeight) { setTimeout(scroll, 500); } else { setTimeout(resolve, 3000); }}())}); })().then(() => console.log('Scrolling is complete!'));"
     }
   }
- 
 ]
+
