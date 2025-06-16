@@ -5,8 +5,7 @@
     "pageEvent": "domcontentloaded",
     "waitForTimeout": 20000,
     "execute": {
-      "beforeSnapshot": "(function () { const style = document.createElement('style'); style.innerHTML = 'body { overflow: auto !important; }'; document.head.appendChild(style); console.log('Base styles injected with animations enabled'); return new Promise(resolve => { let scrollY = 0; const scrollStep = 200; const maxScroll = document.body.scrollHeight; function scrollPage() { window.scrollBy(0, scrollStep); scrollY += scrollStep; if (scrollY < maxScroll) { setTimeout(scrollPage, 200); } else { waitForFooter(); } } function waitForFooter() { const maxAttempts = 20; let attempt = 0; (function checkFooter() { const footer = document.querySelector('.fl-node-9bv8klhrwq3u'); if (footer) { footer.style.display = 'block'; footer.style.opacity = '1'; footer.style.visibility = 'visible'; footer.scrollIntoView({ behavior: 'auto', block: 'center' }); console.log('Footer found and scrolled into view'); setTimeout(resolve, 4000); } else if (attempt++ < maxAttempts) { console.log('Footer not found, retrying...'); setTimeout(checkFooter, 500); } else { console.warn('Footer not found after retries'); resolve(); } })(); } scrollPage(); }); })()"
-    }
+      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = `* { animation: none !important; transition: none !important; } body { overflow: auto !important; }`; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 4, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition < scrollHeight) { setTimeout(scroll, 300); } else { setTimeout(resolve, 2000); } }())}); })().then(() => console.log('Scrolling is complete!'));"
   }
 ]
 
