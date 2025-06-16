@@ -18,11 +18,7 @@
       }
     ]
   },
-  "mobile": {
-    "devices": [
-      "iPhone 14",
-      "Galaxy S24"
-    ],
+ 
     "fullPage": true,
     "orientation": "portrait"
   },
@@ -31,6 +27,6 @@
   "enableJavaScript": false,
   "scrollTime": 8,
   "smartIgnore": false,
-  "ignoreType": "",
+  "fullPage": true,
   "loadDomContent": false
 }
