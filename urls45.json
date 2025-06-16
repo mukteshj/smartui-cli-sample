@@ -7,5 +7,6 @@
     "execute": {
       "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = `* { animation: none !important; transition: none !important; } body { overflow: auto !important; }`; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 4, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition < scrollHeight) { setTimeout(scroll, 300); } else { setTimeout(resolve, 2000); } }())}); })().then(() => console.log('Scrolling is complete!'));"
   }
+  }
 ]
 
