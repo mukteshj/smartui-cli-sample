@@ -30,5 +30,5 @@
   "enableJavaScript": false,
   "allowedHostnames": [],
   "smartIgnore": false,
- "loadDomContent": false
+
 }
