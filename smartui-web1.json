@@ -1,10 +1,7 @@
 {
   "web": {
     "browsers": [
-      "chrome",
-      "firefox",
-      "safari",
-      "edge"
+      "chrome"
     ],
     "viewports": [
       [
