@@ -1,7 +1,7 @@
 [
   {
     "name": "Acacias Plumbing 1",
-    "url": "https://acaciasplumbing.com/",
+    "url": "https://www.marriott.com/loyalty/earn.mi",
     "pageEvent": "domcontentloaded",
     "waitForTimeout": 20000,
     "execute": {
