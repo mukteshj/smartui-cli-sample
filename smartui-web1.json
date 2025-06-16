@@ -1,24 +1,20 @@
 {
   "web": {
-    "browsers": [
-      "chrome"
-    ],
+    "browsers": ["chrome"],
     "viewports": [
       {
-        "height": 0,
-        "width": 1920
+        "width": 1920,
+        "height": 0
       },
       {
-        "height": 0,
-        "width": 1366
+        "width": 1366,
+        "height": 0
       },
       {
-        "height": 0,
-        "width": 1028
+        "width": 1028,
+        "height": 0
       }
-    ]
-  },
- 
+    ],
     "fullPage": true,
     "orientation": "portrait"
   },
@@ -27,6 +23,5 @@
   "enableJavaScript": false,
   "scrollTime": 8,
   "smartIgnore": false,
-  "fullPage": true,
   "loadDomContent": false
 }
