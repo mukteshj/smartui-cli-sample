@@ -27,8 +27,8 @@
     "orientation": "portrait"
   },
   "waitForTimeout": 1000,
-  "enableJavaScript": true,
+  "enableJavaScript": false,
   "allowedHostnames": [],
   "smartIgnore": false,
- "loadDomContent": true
+ "loadDomContent": false
 }
