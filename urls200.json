@@ -5,13 +5,13 @@
     "waitForTimeout": 1000
   },
   {
-    "name": "Ebay-page-82",
-    "url": "https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=82",
+    "name": "ip",
+    "url": "https://ipinfo.io/what-is-my-ip",
     "waitForTimeout": 1000
   },
   {
-    "name": "Insta-page-94",
-    "url": "https://www.instagram.com/makemytrip/?hl=en",
+    "name": "lambdatest",
+    "url": "https://www.lambdatest.com/",
     "waitForTimeout": 1000
   },
   {
