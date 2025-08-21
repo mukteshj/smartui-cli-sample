@@ -1,17 +1,17 @@
 [
   {
     "name": "Amazon-page-20",
-    "url": "https://www.amazon.com/s?k=laptop&page=20",
+    "url": "https://www.facebook.com/",
     "waitForTimeout": 1000
   },
   {
     "name": "ip",
-    "url": "https://ipinfo.io/what-is-my-ip",
+    "url": "https://www.facebook.com/",
     "waitForTimeout": 1000
   },
   {
     "name": "lambdatest",
-    "url": "https://www.lambdatest.com/",
+    "url": "https://www.facebook.com/",
     "waitForTimeout": 1000
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "name": "myntra-page-94",
-    "url": "https://www.myntra.com/",
+    "url": "https://www.facebook.com/",
     "waitForTimeout": 1000
   }
 
