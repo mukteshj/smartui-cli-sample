@@ -6,12 +6,12 @@
   },
   {
     "name": "ip",
-    "url": "https://www.facebook.com/",
+    "url": "https://www.myntra.com/",
     "waitForTimeout": 1000
   },
   {
     "name": "lambdatest",
-    "url": "https://www.facebook.com/",
+    "url": "https://ipinfo.io/what-is-my-ip",
     "waitForTimeout": 1000
   },
   {
