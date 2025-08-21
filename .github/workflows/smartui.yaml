@@ -46,7 +46,16 @@ jobs:
           npm install @lambdatest/smartui-cli@latest -g
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps    
+        run: npx playwright install --with-deps 
+
+      - name: Install missing system libraries
+        run: |
+         sudo apt-get update
+         sudo apt-get install -y \
+         libgtk-4-1 \
+         libgraphene-1.0-0 \
+         libavif16
+   
 
       - name: Execute CLI Capture Build
         run: |
