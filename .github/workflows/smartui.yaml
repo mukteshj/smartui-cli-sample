@@ -45,6 +45,9 @@ jobs:
           npm install
           npm install @lambdatest/smartui-cli@latest -g
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps    
+
       - name: Execute CLI Capture Build
         run: |
           smartui --version
