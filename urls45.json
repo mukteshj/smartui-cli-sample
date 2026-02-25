@@ -1,12 +1,32 @@
 [
-  {
-    "name": "Acacias Plumbing 1",
-    "url": "https://www.marriott.com/loyalty/earn.mi",
-    "pageEvent": "domcontentloaded",
-    "waitForTimeout": 20000,
-    "execute": {
-      "beforeSnapshot": "(function() { const style = document.createElement('style'); style.innerHTML = `* { animation: none !important; transition: none !important; } body { overflow: auto !important; }`; document.head.appendChild(style); console.log('All animations, transitions have been disabled and full page scroll enabled.'); return new Promise(resolve => {let scrollHeight = document.body.scrollHeight, scrollStep = window.innerHeight / 4, scrollPosition = 0; (function scroll() {window.scrollBy(0, scrollStep); scrollPosition += scrollStep; if (scrollPosition < scrollHeight) { setTimeout(scroll, 300); } else { setTimeout(resolve, 2000); } }())}); })().then(() => console.log('Scrolling is complete!'));"
-  }
-  }
+    {
+        "name": "cfainstitute.org/about/governance/committees/people-culture-committee",
+        "pageEvent": "domcontentloaded",
+        "url": "https://cfainstitute.org/about/governance/committees/people-culture-committee"
+    },
+    {
+        "name": "cfainstitute.org/about/press-room/2019/72nd-annual-conference-2019",
+        "pageEvent": "domcontentloaded",
+        "url": "https://cfainstitute.org/about/press-room/2019/72nd-annual-conference-2019"
+    },
+    {
+        "name": "cfainstitute.org/about/press-room/2023/industry-ai-handbook",
+        "pageEvent": "domcontentloaded",
+        "url": "https://cfainstitute.org/about/press-room/2023/industry-ai-handbook"
+    },
+    {
+        "name": "cfainstitute.org/about/press-room/2024/smart-beta-index-strategies-framework",
+        "pageEvent": "domcontentloaded",
+        "url": "https://cfainstitute.org/about/press-room/2024/smart-beta-index-strategies-framework"
+    },
+    {
+        "name": "cfainstitute.org/business/hire",
+        "pageEvent": "domcontentloaded",
+        "url": "https://cfainstitute.org/business/hire"
+    },
+    {
+        "name": "cfainstitute.org/about/press-room/2015/cfa-institute-opens-first-china-office",
+        "pageEvent": "domcontentloaded",
+        "url": "https://cfainstitute.org/about/press-room/2015/cfa-institute-opens-first-china-office"
+    }
 ]
-
