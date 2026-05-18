@@ -503,5 +503,5 @@
     "name": "lambdatest101",
     "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
-  },
+  }
 ]
