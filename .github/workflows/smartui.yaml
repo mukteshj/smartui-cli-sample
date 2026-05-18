@@ -25,7 +25,7 @@ jobs:
     env:
       PROJECT_TOKEN: ${{ inputs.token }}
       LT_SDK_DEBUG: true
-      HEADLESS: false
+      HEADLESS: true
 
     steps:
       - name: Checkout Repository
