@@ -1,29 +1,507 @@
 [
   {
-    "name": "Amazon-page-20",
-    "url": "https://www.facebook.com/",
+    "name": "lambdatest1",
+    "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
   },
   {
-    "name": "ip",
-    "url": "https://www.facebook.com/",
+    "name": "lambdatest2",
+    "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
   },
   {
-    "name": "lambdatest",
-    "url": "https://www.facebook.com/",
+    "name": "lambdatest3",
+    "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
   },
   {
-    "name": "facebook-page-74",
-    "url": "https://www.facebook.com/",
+    "name": "lambdatest4",
+    "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
   },
   {
-    "name": "myntra-page-94",
-    "url": "https://www.facebook.com/",
+    "name": "lambdatest5",
+    "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
-  }
-
+  },
+  {
+    "name": "lambdatest6",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest7",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest8",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest9",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest10",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest11",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest12",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest13",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest14",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest15",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest16",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest17",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest18",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest19",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest20",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest21",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest22",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest23",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest24",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest25",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest26",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest27",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest28",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest29",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest30",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest31",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest32",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest33",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest34",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest35",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest36",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest37",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest38",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest39",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest40",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest41",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest42",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest43",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest44",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest45",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest46",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest47",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest48",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest49",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest50",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest51",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest52",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest53",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest54",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest55",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest56",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest57",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest58",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest59",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest60",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest61",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest62",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest63",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest64",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest65",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest66",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest67",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest68",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest69",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest70",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest71",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest72",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest73",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest74",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest75",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest76",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest77",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest78",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest79",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest80",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest81",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest82",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest83",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest84",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest85",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest86",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest87",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest88",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest89",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest90",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest91",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest92",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest93",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest94",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest95",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest96",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest97",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest98",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest99",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest100",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest101",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
 ]
-
