@@ -1,6 +1,6 @@
 [
 
-{
+  {
     "name": "lambdatest1",
     "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
@@ -467,6 +467,37 @@
   },
   {
     "name": "lambdatest94",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+
+     {
+    "name": "lambdatest95",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest96",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest97",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest98",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest99",
+    "url": "https://www.lambdatest.com",
+    "waitForTimeout": 1000
+  },
+  {
+    "name": "lambdatest100",
     "url": "https://www.lambdatest.com",
     "waitForTimeout": 1000
   }
